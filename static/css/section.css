@@ -1,0 +1,59 @@
+/*---About Me Section---*/
+.about-section{
+    padding: 2rem;
+}
+
+.about-image-container img{
+    width: 60%;
+}
+
+.about-image-container{
+    width: 40%;
+}
+
+.about-description-container {
+    width: 60%;
+}
+
+.about-description-container p {
+    width: 80%;
+    margin: 2rem 0px;
+}
+
+.project-card img{
+    width: 100%;
+    border-radius: 1%;
+}
+
+.skills-container {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+a p:nth-child(2) {
+    font-weight: bolder;
+    font-size: 1.1rem;
+    margin: 0.5rem 0px;
+}
+
+a p:nth-child(3) {
+    font-style: italic;
+}
+
+a p:nth-child(4) {
+    font-weight: bolder;
+    font-style: italic;
+    letter-spacing: 0.2rem;
+    margin: 0.5rem 0px;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 4rem;
+    margin-top: 2rem;
+}

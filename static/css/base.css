@@ -1,0 +1,88 @@
+/*--Variables--*/
+:root {
+    --primary-color: #AF9FFF;
+    --primary-color-100: #d5ccff;
+    --primary-color-300: #7F66FF;
+
+    --secondary-color: #025834;
+    --secondary-color-600: #04C876;
+    --secondary-color-900: #01321E;
+
+    --neutral-color: #E0E0E0;
+
+
+    --background-color: #1B1B1B;
+    
+    --surface-color: #252525;
+
+    --lobster-font: "Lobster", sans-serif;
+    --sans-font: "DM Sans", sans-serif;
+}
+
+.center-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*--General Style::
+    Styles that can be applied to all the elements. */
+
+
+html {
+    background-color: var(--background-color);
+    font-size: 16px;
+}
+
+* {
+    font-family: var(--sans-font);
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: var(--secondary-color-600);
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+h2 {
+    color: var(--primary-color);
+    font-family: var(--lobster-font);
+    font-weight: 400;
+    letter-spacing: 0.06rem;
+    font-size: 1.8rem;
+}
+
+p {
+    color: var(--neutral-color);
+    font-size: 1.1rem;
+}
+
+.tags-container label {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0.8rem 1.5rem;
+}
+
+.tags-container {
+    width: 70%;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 2rem;
+}
+
